@@ -25,6 +25,7 @@ $people[] = "Mary";
 $people[] = "Brad";
 $people[] = "Mike";
 
+// Using '$_REQUEST' for handling both get and post requests
 $query_string = $_REQUEST['q'];
 
 $suggestion='';
